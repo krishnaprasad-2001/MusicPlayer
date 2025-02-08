@@ -9,4 +9,4 @@ fi
 sudo mkdir -p /opt/MusicPlayer
 cp musicPlayer.sh /opt/MusicPlayer
 sudo ln -s /opt/MusicPlayer/musicPlayer.sh  /usr/local/bin/musicPlayer
-
+chmod +x /opt/MusicPlayer/musicPlayer.sh  
