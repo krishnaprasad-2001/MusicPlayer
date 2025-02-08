@@ -14,7 +14,7 @@ exit_player(){
 	choice=$(zenity --question --text="Do you want to close the application")
 	if [[ $? -eq 0 ]]
 	then
-		killall -9 mpv; &> /var/log/MusicLog.txt
+		killall -9 mpv &> /var/log/MusicLog.txt
 		exit 0;
 	fi
 }
